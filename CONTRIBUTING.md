@@ -18,6 +18,6 @@ Most of the code is written by coding agents following `AGENTS.md`; its rules ap
 - The Swift target and module names stay `SimpleMarkdownPreviewerApp` and `SimpleMarkdownPreviewerCore`.
 - Technical documentation, code comments and commit messages are in English. Do not commit `.build/`.
 
-## Pull requests
+## Fixes
 
-Describe the change, link the issue if there is one, and list the commands you ran and their results. For changes that may affect startup, say how you measured it (see the Development section of the README).
+Pull requests are turned off for this repository. To send a fix, open an issue that describes the change, links the commit you tested, and lists the commands you ran and their results; a patch or a link to your branch is welcome. For changes that may affect startup, say how you measured it (see the Development section of the README).
