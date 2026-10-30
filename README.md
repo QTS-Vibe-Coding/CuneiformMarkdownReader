@@ -4,11 +4,11 @@
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-lightgrey)
 [![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)](LICENSE)
 
-<!-- banner -->
+![Cuneiform](docs/images/banner.jpg)
 
 Cuneiform is a macOS app that previews Markdown files and does nothing else: it opens a `.md` or `.markdown` file read-only and renders it, so long documents such as AI-generated notes and drafts are quick to read. It has no editor, no network access of its own and no settings to save.
 
-<!-- screenshots -->
+![A Markdown note with a table, a code block and a quote, open in Cuneiform](docs/images/reader.png)
 
 ## Status
 
