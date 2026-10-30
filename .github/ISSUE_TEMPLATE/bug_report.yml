@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in Cuneiform does not work as described
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What you did and what went wrong. Error messages help.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The steps, and the smallest Markdown file that shows it (attach it or paste it in a code block).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release (the DMG name, or Get Info on Cuneiform.app in Finder) or the commit you built (`git rev-parse --short HEAD`).
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 15.5
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Rendering (native, the default)
+        - Rendering (WebView, CUNEIFORM_RENDERER=webview)
+        - Opening files (Finder, drag and drop, File › Open)
+        - Default Markdown viewer
+        - Build and release scripts
+        - Docs
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Optional. If you know where the cause is, say so.
